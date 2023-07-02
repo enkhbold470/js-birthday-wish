@@ -6,7 +6,7 @@
     "dev": "next dev",
    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "export": "next build && next export",
-   "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+   "start": "react-scripts --openssl-legacy-provider start",
     "lint": "next lint"
     
   },
